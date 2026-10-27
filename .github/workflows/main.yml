@@ -8,3 +8,10 @@ jobs:
     steps:
       - name: say Hello
         run: echo "Hello from GH-200 session from Venkat !!!"
+
+
+      - name: checkoyt repo
+        uses: actions/checkout@v7
+
+      - name: list files
+        run: ls - la
